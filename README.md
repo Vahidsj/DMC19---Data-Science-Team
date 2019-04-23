@@ -17,13 +17,13 @@ The objective of the participating teams is to create a model to classify the sc
 
 ## Group Members:
 
-**1.Johannes Bierschneider**<br />
-**2.Alisa Danilova**<br />
-**3.Markus Erik Engel**<br />
-**4.Thomas Kranzkowski**<br />
-**5.Manuel Richter**<br />
-**6.Vahid Sadiri Javadi**<br />
-**7.Shiwen Song**<br />
-**8.Jannis Steinmaier**<br />
-**9.Georg Winkler**<br />
+**1. Johannes Bierschneider**<br />
+**2. Alisa Danilova**<br />
+**3. Markus Erik Engel**<br />
+**4. Thomas Kranzkowski**<br />
+**5. Manuel Richter**<br />
+**6. Vahid Sadiri Javadi**<br />
+**7. Shiwen Song**<br />
+**8. Jannis Steinmaier**<br />
+**9. Georg Winkler**<br />
 
