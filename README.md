@@ -13,3 +13,19 @@ Empirical research conducted by suppliers has shown that discrepancies are found
 To minimize losses, the food retailer hopes to identify cases of fraud using targeted follow-up checks. The challenge here is to keep the number of checks as low as possible to avoid unnecessary added expense as well as to avoid putting off innocent customers due to false accusations. At the same time, however, the goal is to identify as many false scans as possible.
 
 The objective of the participating teams is to create a model to classify the scans as fraudulent or non-fraudulent. The classification does not take into account whether the fraud was committed intentionally or inadvertently.
+
+
+## Group Members:
+
+Johannes Bierschneider 
+Manuel Richter
+Georg Winkler
+Markus Erik Engel
+Shiwen Song
+Thomas Kranzkowski
+Jannis Steinmaier
+Alisa Danilova
+Vahid Sadiri Javadi
+
+
+
