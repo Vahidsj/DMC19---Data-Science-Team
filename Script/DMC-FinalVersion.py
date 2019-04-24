@@ -8,10 +8,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression, SGDClassifier
 from sklearn.svm import SVC, LinearSVC, NuSVC
 from sklearn.naive_bayes import MultinomialNB, BernoulliNB, GaussianNB
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neural_network import MLPClassifier
 from sklearn.utils import shuffle
-from sklearn.metrics import roc_curve, auc
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import roc_curve, auc, confusion_matrix
 
 import matplotlib.pyplot as plt
 
@@ -62,32 +63,165 @@ print("n_samples: %d" % n_samples)
 print("n_features: %d" % n_features)
 print("n_classes: %d" % n_classes)
 
-#################################################################################
+################################################################################# Data Cleansing
+
+
+
+
+
+
+
+################################################################################ Feature Enginering
+
+
+
+
+
+
+
+################################################################################# Create Training and Test set
 
 random_state = np.random.RandomState(0)
 X, y = shuffle(X,y)
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.3, random_state=random_state)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3,
+                                                    random_state=random_state)
 
-X_train, y_train = shuffle(X_train, y_train)
-
-#################################################################################
-
-LoR_classifier = LogisticRegression()
-LoR_classifier.fit(X_train, y_train)
-print('LogisticRegression Accuracy: %.2f' %LoR_classifier.score(X_test, y_test))
-y_pred = LoR_classifier.predict(X_test)
-print(confusion_matrix(y_test, y_pred))
-
-LinearSVC_classifier = LinearSVC()
-LinearSVC_classifier.fit(X_train, y_train)
-print('LinearSVC Accuracy: %.2f' %LinearSVC_classifier.score(X_test, y_test))
-y_pred = LinearSVC_classifier.predict(X_test)
-print(confusion_matrix(y_test, y_pred))
+################################################################################# Classifier
 
 
-################################################################################# Confusion_matrix
+
+
+
+
+
+
+
+
+################################################################################# Validation - Confusion_matrix
+
+
+
+
+
+
+
+
+
+
+################################################################################ Johannes
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Alisa
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Markus
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Thomas
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Manuel
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Vahid
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Shiwen
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Jannis
+
+
+
+
+
+
+
+
+
+
+
+
+################################################################################ Georg
+
+
+
+
+
+
+
+
+
 
 
 
