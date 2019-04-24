@@ -1,0 +1,13 @@
+Index: Ordering from the Data, 1-1879 train, 1880-500000 test
+
+engineered features:
+
+Positions = Data[totalScanTimeInSeconds] * Data[scannedLineItemsPerSecond]
+
+lineItemVoidsPerSecond = Data[lineItemVoids] / Data[totalScanTimeInSeconds]
+
+grandTotalPerPosition = Data[grandTotal] / Data[Positions]
+
+scansWithoutRegistraionPerPosition = Data[scansWithoutRegistration] / Data[Positions]
+
+quantityModificationsPerPosition = Data[quantityModifications] / Data[Positions]
